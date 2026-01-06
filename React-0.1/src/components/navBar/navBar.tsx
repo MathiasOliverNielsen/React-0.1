@@ -1,10 +1,10 @@
-import "./navBar.css";
+import styles from "./navBar.module.scss";
 
 function NavBar() {
   return (
-    <nav className="navbar">
-      <div className="nav-container">
-        <ul className="nav-links">
+    <nav className={styles.navbar}>
+      <div className={styles.navContainer}>
+        <ul className={styles.navLinks}>
           <li>
             <a href="#home">Home</a>
           </li>

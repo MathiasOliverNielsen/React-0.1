@@ -1,14 +1,14 @@
-import "./footer.css";
+import styles from "./footer.module.scss";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-content">
-        <div className="footer-section">
+    <footer className={styles.footer}>
+      <div className={styles.footerContent}>
+        <div className={styles.footerSection}>
           <h4>TechBlog</h4>
           <p>Your source for tech insights and tutorials.</p>
         </div>
-        <div className="footer-section">
+        <div className={styles.footerSection}>
           <h4>Quick Links</h4>
           <ul>
             <li>
@@ -22,14 +22,14 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="footer-section">
+        <div className={styles.footerSection}>
           <h4>Connect</h4>
-          <div className="social-links">
+          <div className={styles.socialLinks}>
             <span>Follow us on social media</span>
           </div>
         </div>
       </div>
-      <div className="footer-bottom">
+      <div className={styles.footerBottom}>
         <p>&copy; 2026 TechBlog. All rights reserved.</p>
       </div>
     </footer>
