@@ -1,5 +1,5 @@
 import styles from "./header.module.scss";
-import NavBar from "../navBar/navBar";
+import { NavBar } from "../navBar/navBar";
 
 function Header() {
   return (
@@ -13,4 +13,4 @@ function Header() {
   );
 }
 
-export default Header;
+export { Header };
