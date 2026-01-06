@@ -49,7 +49,7 @@ function DropDown() {
           </div>
         )}
 
-        {isOpen && <div className={dropDownStyles.backdrop} onClick={closeDropdown} />}
+        {isOpen && <div onClick={closeDropdown} />}
       </div>
     </div>
   );
